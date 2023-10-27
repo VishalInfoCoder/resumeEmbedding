@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+__init__.py
+
+# Logs and databases
+*.log
+*.db
+
+# Local configuration files
+instance/
+*.ini
+
+# Compiled Python files
+*.pyc
+
+# Virtual environment
+venv/
+
+# Environment variables file (if you're using .env)
+.env
+
+# IDE-specific files (e.g., .vscode, .idea, .pycharm)
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+__pycache__/
+*.swp
+
+# Temporary files
+*.tmp
+
+# Generated HTML files (if any)
+*.html
+
+# Package dependency directories (e.g., for pipenv)
+Pipfile.lock
+
+# Docker Compose files (if using Docker)
+docker-compose.yml
+
+# Node.js-related files (if using JavaScript or Node.js in your project)
+node_modules/
+# Exclude document files
+*.pdf
+*.doc
+*.docx
+*.txt
