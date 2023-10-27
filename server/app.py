@@ -2,7 +2,6 @@ from flask import Flask, request,make_response
 import uuid 
 import json
 from langchain.vectorstores import Chroma
-from sentence_transformers import SentenceTransformer, util
 import os
 from langchain.docstore.document import Document
 from langchain.embeddings import SentenceTransformerEmbeddings

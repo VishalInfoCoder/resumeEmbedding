@@ -3,7 +3,7 @@ __pycache__/
 *.pyc
 *.pyo
 __init__.py
-
+myvenv
 # Logs and databases
 *.log
 *.db
