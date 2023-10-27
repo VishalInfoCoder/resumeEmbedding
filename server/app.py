@@ -8,8 +8,8 @@ from langchain.embeddings import SentenceTransformerEmbeddings
 from langchain.embeddings.openai import OpenAIEmbeddings
 persist_directory='database'
 app = Flask(__name__)
-import openAi_config
-embeddingFunction=openAi_config
+from openAi_config import main
+embedding_function = main()
 # print(embeddingFunction)
 @app.route('/api/embeddings/CreateEmbeddings', methods=['POST'])
 def hello_world():
