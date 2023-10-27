@@ -14,7 +14,8 @@ embedding_function = main()
 @app.route('/api/embeddings/CreateEmbeddings', methods=['POST'])
 def hello_world():
     data = request.get_json()
-    docs = Document(page_content=data['resumetext'], metadata={"fileName": data['filename'], "id": str(data['id'])})
+    docs=[]
+    docs.append(Document(page_content=data['resumeText'], metadata={"fileName": data['fileName'], "id": str(data['id'])}))
     # for mydata in theData:
     #     metadata={"fileName":mydata['filename'],"id":str(mydata['_id']['$oid'])}
     #     text = mydata['resumetext']

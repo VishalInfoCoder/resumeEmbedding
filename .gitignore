@@ -17,6 +17,7 @@ instance/
 
 # Virtual environment
 venv/
+myenv
 
 # Environment variables file (if you're using .env)
 .env
