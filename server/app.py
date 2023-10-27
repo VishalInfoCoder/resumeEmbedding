@@ -6,6 +6,10 @@ import os
 from langchain.docstore.document import Document
 from langchain.embeddings import SentenceTransformerEmbeddings
 from langchain.embeddings.openai import OpenAIEmbeddings
+import warnings
+
+
+warnings.filterwarnings("ignore")
 persist_directory='database'
 app = Flask(__name__)
 from openAi_config import main
