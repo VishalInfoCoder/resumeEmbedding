@@ -19,9 +19,11 @@ instance/
 venv/
 myenv
 
+# database
+database
+
 # Environment variables file (if you're using .env)
 .env
-
 # IDE-specific files (e.g., .vscode, .idea, .pycharm)
 .vscode/
 .idea/
