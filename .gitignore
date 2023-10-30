@@ -21,6 +21,7 @@ myenv
 
 # database
 database
+exampleDb
 
 # Environment variables file (if you're using .env)
 .env
